@@ -115,7 +115,7 @@ def handle_message(event):
                 # 因此要回覆的訊息務必使用 Line 官方提供的類別來產生回應物件
                 messages=[
                     # 要回應的內容放在這個串列中
-                    TextMessage(text="您好，請輸入「menu」觀看主選單。"),
+                    TextMessage(text="嗨嗨，請輸入「menu」觀看主選單。"),
                     bot_msg
                 ]
             )
